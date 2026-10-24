@@ -115,9 +115,9 @@ def get_number_from_roman_numeral(numeral):
     first_roman = numeral_split[0]
     second_roman = numeral_split[1]
 
-    print numeral_split
-    print first_roman
-    print second_roman
+    print (numeral_split)
+    print (first_roman)
+    print (second_roman)
 
     if first_roman == second_roman:
         for roman_letter in numeral_split:
@@ -136,5 +136,5 @@ def get_number_from_roman_numeral(numeral):
             elif roman_letter == ['I'] and ['V']:
                 number += 4
 
-    print number
+    print (number)
     return number
